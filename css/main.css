@@ -52,7 +52,7 @@ body {
     }
     .contenido {
         width: 50%;
-        background-color: greenyellow;
+        background-color: cyan;
     }
     .contenido, .contenido-lateral {
         width: 100%;
