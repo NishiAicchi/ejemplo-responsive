@@ -30,6 +30,7 @@ body {
     width: 100%;
     height: 50px;
 }
+/*primer media queries con ancho minimo y ancho maximo inicial*/
 @media screen and (min-width: 780px) and (max-width: 1024px){
     .encabezado{
         background-color: pink;
@@ -38,6 +39,7 @@ body {
         width: 50%;
     }
 }
+/*segundo media queries que convierte el ancho minimo del primero en el ancho maximo, y completa con el ancho minimo*/
 @media screen and (min-width: 480px) and (max-width: 780px){
     .encabezado{
         background-color: pink;
@@ -46,6 +48,7 @@ body {
         width: 100%;
     }
 }
+/*tercer media queries que convierte el ancho minimo del segundo en ancho maximo... los tres siguen una correlacion de tamaño...*/
 @media screen and (max-width: 480px){
     .encabezado{
         height: 80px;
